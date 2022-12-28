@@ -1,0 +1,271 @@
+.container.main {
+  text-align: center;
+}
+
+.title {
+  font-size: 81px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 5px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.status {
+  margin-bottom: 30px;
+}
+
+.status button {
+  display: inline-block;
+  margin-right: 200px;
+  font-size: 24px;
+  padding: 10px 16px 10px 16px;
+  border-radius: 8px;
+  border: 3px solid black;
+  outline: none;
+  background-color: white;
+  color:black;
+}
+
+.status button:hover {
+  background-color: black;
+  color: white;
+}
+
+.score-display {
+  display: inline-block;
+}
+
+.score-display h1 {
+  vertical-align: sub;
+  margin: 0;
+  display: inline-block;
+  color: black;
+}
+
+.game-over h1 {
+  color: #fff4ea;
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.game-board {
+  text-align: center;
+  display: inline-block;
+  background-color: #BBADA0;
+  border: 8px solid #BBADA0;
+  border-radius: 10px;
+}
+
+.box-row {
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
+.box-row:first-child {
+  margin-top: 4px;
+}
+
+.box {
+  background-color: #CDC1B4;
+  height: 150px;
+  width: 150px;
+  border: 8px solid #BBADA0;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.box:first-child {
+  margin-left: 4px;
+}
+
+.box:last-child {
+  margin-right: 4px;
+}
+
+.box h1 {
+  color: #776E65;
+  margin: 0;
+  font-size: 53px;
+  padding: 38px 0 38px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container {
+  position: relative;
+}
+/* navigation bar */
+.navbar {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    letter-spacing: 5px;
+    background-color: #ddf3f5;
+}
+
+.navbar-brand {
+  font-size: 4rem;
+}
+
+.nav-item {
+  padding: 5px 20px;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+/* dropdown */
+.dropdown-btn {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  margin: 12px;
+  padding: 0;
+  letter-spacing: 5px;
+  color: #777;
+}
+
+.dropdown-line {
+  margin: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: none;
+  border-top: 1px solid black;
+}
+
+.drop-menu {
+  padding: 20px 10px 10px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.drop-menu a {
+  display: block;
+  margin-bottom: 10px;
+  color: #777;
+  text-decoration: none;
+}
+
+.drop-menu a:last-child {
+  margin-bottom: 0;
+}
+
+.drop-menu a:hover {
+  text-decoration: none;
+}
+
+.last-nav-item {
+  padding: 5px 0 5px 20px;
+}
+
+.sign-in {
+  font-size: 31px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-left: 14px;
+  padding: 2px 10px;
+}
+
+.sign-in:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.sign-in:focus {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-brand {
+    clear: both;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav {
+    margin: 7.5px -15px;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding: 10px;
+    padding-left: 15px;
+  }
+  .sign-in {
+    margin-left: 14px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar-brand {
+    padding-left: 30px;
+  }
+  .dropdown-btn {
+    margin-left: 15px;
+  }
+  .drop-menu {
+    margin-bottom: 5px;
+  }
+  .last-nav-item {
+    padding-top: 14px;
+  }
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  background-color: #ddf3f5;
+  padding: 50px 24% 200px;
+}
+
+#footer a {
+  padding: 0 16px 0;
+  color: black;
+}
+
+#footer a:hover {
+  color: black;
+  opacity: 0.8;
+}
+
+#footer p {
+  display: block;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  margin-top: 15px;
+  color: black;
+}
